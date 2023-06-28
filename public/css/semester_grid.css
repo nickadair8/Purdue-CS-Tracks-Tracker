@@ -1,0 +1,28 @@
+.semester_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    margin-top: 30px;
+}
+
+.semester_grid p{
+    text-align: center;
+    margin-top: 0;
+    border-bottom: 1px solid black;
+}
+
+.semester_grid div{
+    height: 250px;
+    border: 1px solid black;
+    background-color: lightgrey;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.semester_grid .credit_hours{
+    margin-top: 213px;
+    text-align: left;
+    border-top: 1px solid black;
+    border-bottom: none;
+}

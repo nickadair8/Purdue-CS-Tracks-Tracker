@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.welcome{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}

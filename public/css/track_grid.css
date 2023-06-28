@@ -1,0 +1,111 @@
+
+.select_tracks{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.track_grid1{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.track_grid2{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    column-gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.track_grid2 button,
+.track_grid1 button{
+    background-color: rgb(206, 184, 136);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity .15s, font-weight .1s;
+}
+
+.Software_button:hover{
+    opacity: .65;
+}
+
+.Systems_Eng_button:hover{
+    opacity: .65;
+}
+
+.MI_button:hover{
+    opacity: .65;
+}
+
+.Cyber_button:hover{
+    opacity: .65;
+}
+
+.Langauges_button:hover{
+    opacity: .65;
+}
+
+.Software_button:active{
+    opacity: .65;
+    font-weight: bold;
+}
+
+.Systems_Eng_button:active{
+    opacity: .65;
+    font-weight: bold;
+}
+
+.MI_button:active{
+    opacity: .65;
+    font-weight: bold;
+}
+
+.Cyber_button:active{
+    opacity: .65;
+    font-weight: bold;
+}
+
+.Langauges_button:active{
+    opacity: .65;
+    font-weight: bold;
+}
+
+.CompSci_Eng:hover{
+    opacity: .65;
+}
+
+.graphics:hover{
+    opacity: .65;
+}
+
+.database:hover{
+    opacity: .65;
+}
+
+.algorithms:active{
+    opacity: .65;
+}
+
+.CompSci_Eng:active{
+    opacity: .65;
+    font-weight: bold;
+}
+
+.graphics:active{
+    opacity: .65;
+    font-weight: bold;
+}
+
+.database:active{
+    opacity: .65;
+    font-weight: bold;
+}
+
+.algorithms:active{
+    opacity: .65;
+    font-weight: bold;
+}

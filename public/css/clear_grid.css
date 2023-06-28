@@ -1,0 +1,34 @@
+.clear_grid{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    margin-top: 2px;
+}
+
+.clear_grid button{
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius:4px;
+    background-color:  rgb(206, 184, 136);
+    cursor: pointer;
+    transition: opacity .15s, font-weight .1s;
+}
+
+.clear_all:hover{
+    opacity: .65;
+}
+
+.clear_all:active{
+    opacity: .65;
+    font-weight: bold;
+}
+
+.clear_last:hover{
+    opacity: .65;
+}
+
+.clear_last:active{
+    opacity: .65;
+    font-weight: bold;
+}
