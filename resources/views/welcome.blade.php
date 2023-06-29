@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="{{ URL::asset('css/track_grid.css') }}">    
         <link rel="stylesheet" href="{{ URL::asset('css/semester_grid.css') }}"> 
         <link rel="stylesheet" href="{{ URL::asset('css/clear_grid.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/selector.css') }}">
     </head>
     <body>
        <div class="header">
@@ -82,9 +83,31 @@
             <button class="clear_all">
                 Clear All
             </button>
-            <button class="clear_last">
-                Clear Last
-            </button>
+       </div>
+
+
+       <!--selector drop down-->
+       <div class="selector-container">
+            <div class="selector">
+                <p>Pick Your Classes</p>
+                <div class="close-btn">&times;</div> 
+                
+                <div class="filter">
+                    <div class="required">
+                        <p>Required</p>
+                    </div>
+        
+                    <div class="elective">
+                        Electives
+                    </div>
+                </div>
+            </div>
+                     
        </div>
     </body>
+
+
+
+    <script src="{{ URL::asset('js/app.js') }}"></script>
+    <script src="{{ URL::asset('js/selector.js') }}"></script>
 </html>
