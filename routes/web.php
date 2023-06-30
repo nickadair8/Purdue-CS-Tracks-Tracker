@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\TrackClassesController;
+use App\Models\TrackClass;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [TrackClassesController::class, 'index']);
 
 // Route::get('/select', function () {
 //     return view('select');

@@ -1,3 +1,4 @@
+
 let softwareBtn = document.querySelector('.Software_button');
 const btn = document.getElementsByTagName('button');
 let selectorContainer = document.querySelector('.selector-container');
@@ -13,3 +14,4 @@ for (i = 0; i < btn.length - 1; i++) {
 closeBtn.addEventListener('click', function () {
     selectorContainer.style.display = 'none';
 })
+

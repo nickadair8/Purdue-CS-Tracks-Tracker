@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -105,7 +106,6 @@
                      
        </div>
     </body>
-
 
 
     <script src="{{ URL::asset('js/app.js') }}"></script>
